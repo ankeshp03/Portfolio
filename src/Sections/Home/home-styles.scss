@@ -1,0 +1,15 @@
+.homeWrapper {
+    display: flex;
+    height: 100vh;
+    padding: 0 50px;
+    position: relative;
+    align-items: center;
+    background: linear-gradient(90deg, #fafafa 0%, #eeeeee 100%);
+    .imageContainer {
+        width: calc(100% - 50px);
+        height: 100%;
+        position: absolute;
+        background: url("./../../assets/background.png") no-repeat;
+        background-position: 100% 100%;
+    }
+}

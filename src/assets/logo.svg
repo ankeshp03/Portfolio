@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 37 31" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="30" height="30">
+    <g clip-path="url(#clipPath)">
+        <g transform="matrix(1 0 0 1 -1.66359997000000 -1.34328794000000)">
+            <ellipse rx="11.109700" ry="10.333400" transform="matrix(0.99816000000000 -0.06063100000000 -0.06518600000000 0.99787300000000 26.81950000000000 12.32830000000000)" fill="rgb(102,102,102)" stroke="none" stroke-width="1"/>
+            <path d="M31.725800,11.619500C31.577000,13.897500,29.470400,15.864700,27.020600,16.013600C24.570900,16.162400,22.705600,14.436400,22.854400,12.158400C23.003200,9.880470,25.109700,7.913210,27.559500,7.764400C30.009300,7.615590,31.874600,9.341600,31.725800,11.619500Z" fill="rgb(250,250,250)" stroke="none" stroke-width="1"/>
+            <path d="M1.663600,15.013196L21.490593,3.931120L31.734118,21.167904L11.907023,32.250000L1.663600,15.013196Z" fill="rgb(250,250,250)" stroke="none" stroke-width="1"/>
+            <path d="M17.500000,5L32.655400,31.250000L2.344560,31.250000L17.500000,5Z" fill="rgb(102,102,102)" stroke="none" stroke-width="1"/>
+            <path d="M17.500000,16.666700L25.919700,31.250000L9.080320,31.250000L17.500000,16.666700Z" transform="matrix(1 0 0 1 0 1)" fill="rgb(250,250,250)" stroke="none" stroke-width="1"/>
+        </g>
+        <clipPath id="clipPath">
+            <rect width="37" height="31" rx="0" ry="0" transform="matrix(1 0 0 1 -0 0)" opacity="0" fill="rgb(255,255,255)" fill-opacity="0" stroke="none" stroke-width="0" stroke-opacity="0"/>
+        </clipPath>
+    </g>
+</svg>

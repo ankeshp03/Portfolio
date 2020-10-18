@@ -1,0 +1,22 @@
+[
+    {
+        "key": "home",
+        "label": "Home",
+        "path": "#home"
+    },
+    {
+        "key": "work",
+        "label": "Work",
+        "path": "#work"
+    },
+    {
+        "key": "skils",
+        "label": "Skills",
+        "path": "#skils"
+    },
+    {
+        "key": "contact",
+        "label": "Contact",
+        "path": "#contact"
+    }
+]
