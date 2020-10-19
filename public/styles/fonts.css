@@ -5,6 +5,12 @@
 }
 
 @font-face {
+    font-family: "WorkSans-Bold";
+    src: local("WorkSans-Bold"),
+        url("./../fonts/workSans/WorkSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
     font-family: "WorkSans-Regular";
     src: local("WorkSans-Regular"),
         url("./../fonts/workSans/WorkSans-Regular.ttf") format("truetype");

@@ -1,1 +1,17 @@
+@charset 'utf-8';
+@import "./utils/_variables";
+@import "./Components/Header/header-styles";
+@import "./LandingPage/landingPage-styles";
+@import "./Sections/Home/home-styles";
+@import "./Sections/Work/work-styles";
+@import "./Sections/Skills/skills-styles";
+@import "./Sections/Contact/contact-styles";
 
+body {
+    color: $font_color;
+}
+
+.mainWrapper {
+    height: 100vh;
+    min-height: 300px;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Work = () => {
     return (
-        <div className="workWrapper">
+        <div id="work" className="mainWrapper workWrapper">
 
         </div>
     )

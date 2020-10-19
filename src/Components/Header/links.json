@@ -2,21 +2,21 @@
     {
         "key": "home",
         "label": "Home",
-        "path": "#home"
+        "path": "home"
     },
     {
         "key": "work",
         "label": "Work",
-        "path": "#work"
+        "path": "work"
     },
     {
-        "key": "skils",
+        "key": "skills",
         "label": "Skills",
-        "path": "#skils"
+        "path": "skills"
     },
     {
         "key": "contact",
         "label": "Contact",
-        "path": "#contact"
+        "path": "contact"
     }
 ]

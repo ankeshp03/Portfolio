@@ -1,14 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 37 31" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="30" height="30">
-    <g clip-path="url(#clipPath)">
-        <g transform="matrix(1 0 0 1 -1.66359997000000 -1.34328794000000)">
-            <ellipse rx="11.109700" ry="10.333400" transform="matrix(0.99816000000000 -0.06063100000000 -0.06518600000000 0.99787300000000 26.81950000000000 12.32830000000000)" fill="rgb(102,102,102)" stroke="none" stroke-width="1"/>
-            <path d="M31.725800,11.619500C31.577000,13.897500,29.470400,15.864700,27.020600,16.013600C24.570900,16.162400,22.705600,14.436400,22.854400,12.158400C23.003200,9.880470,25.109700,7.913210,27.559500,7.764400C30.009300,7.615590,31.874600,9.341600,31.725800,11.619500Z" fill="rgb(250,250,250)" stroke="none" stroke-width="1"/>
-            <path d="M1.663600,15.013196L21.490593,3.931120L31.734118,21.167904L11.907023,32.250000L1.663600,15.013196Z" fill="rgb(250,250,250)" stroke="none" stroke-width="1"/>
-            <path d="M17.500000,5L32.655400,31.250000L2.344560,31.250000L17.500000,5Z" fill="rgb(102,102,102)" stroke="none" stroke-width="1"/>
-            <path d="M17.500000,16.666700L25.919700,31.250000L9.080320,31.250000L17.500000,16.666700Z" transform="matrix(1 0 0 1 0 1)" fill="rgb(250,250,250)" stroke="none" stroke-width="1"/>
-        </g>
-        <clipPath id="clipPath">
-            <rect width="37" height="31" rx="0" ry="0" transform="matrix(1 0 0 1 -0 0)" opacity="0" fill="rgb(255,255,255)" fill-opacity="0" stroke="none" stroke-width="0" stroke-opacity="0"/>
-        </clipPath>
-    </g>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="209 173.863 39.60000000000002 32.262" width="35.6" height="28.26"><defs><path d="M234.13 203.13L225 187.6L215.87 203.13L210 203.13L225.16 176.88L240.31 203.13L234.13 203.13ZM239.15 175.32L240.32 175.76L241.4 176.33L242.38 177.02L243.25 177.83L244 178.73L244.62 179.74L245.1 180.82L245.43 181.99L245.6 183.22L245.6 184.5L245.43 185.8L245.1 187.06L244.61 188.28L243.98 189.43L243.23 190.52L242.35 191.52L241.37 192.44L240.29 193.26L239.32 193.85L236.17 188.55L237.38 187.91L238.4 186.96L239.11 185.79L239.42 184.47L239.28 183.18L238.72 182.09L237.82 181.25L236.64 180.74L235.25 180.61L233.83 180.91L232.58 181.57L232.22 181.9L229.2 176.81L229.89 176.39L231.13 175.8L232.43 175.35L233.79 175.03L235.18 174.87L236.57 174.86L237.89 175.02L239.15 175.32Z" id="a2rmMmlR5d"></path></defs><g><g><use xlink:href="#a2rmMmlR5d" opacity="1" fill="#666666" fill-opacity="1"></use><g><use xlink:href="#a2rmMmlR5d" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use></g></g></g></svg>

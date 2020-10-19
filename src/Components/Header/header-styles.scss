@@ -1,4 +1,25 @@
 .headerNav {
-    padding: 5px 50px;
-    font-family: 'WorkSans-Medium';
+    padding: 10px 50px;
+    font-family: "WorkSans-Bold";
+    transition: box-shadow 0.3s;
+    &.scrollActive {
+        background-color: $header_nav_bg_color;
+        box-shadow: 0 0 15px 0 rgba($color: #2c1c06, $alpha: 0.25);
+    }
+    .navigationBar {
+        .navigationLink {
+            padding: 0.5rem 1rem;
+            &:last-child {
+                padding-right: 0;
+            }
+            .navigationLinkItem {
+                cursor: pointer;
+                text-decoration: none;
+                color: $header_font_color;
+                &.active {
+                    color: $header_active_font_color;
+                }
+            }
+        }
+    }
 }
