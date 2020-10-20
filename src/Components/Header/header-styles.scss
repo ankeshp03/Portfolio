@@ -7,6 +7,7 @@
         box-shadow: 0 0 15px 0 rgba($color: #2c1c06, $alpha: 0.25);
     }
     .navigationBar {
+        position: relative;
         .navigationLink {
             padding: 0.5rem 1rem;
             &:last-child {
@@ -17,9 +18,19 @@
                 text-decoration: none;
                 color: $header_font_color;
                 &.active {
+                    transition: color 0.5s;
                     color: $header_active_font_color;
                 }
             }
+        }
+        .activeLinkHighlight {
+            width: 8px;
+            height: 8px;
+            bottom: 0px;
+            border-radius: 50%;
+            position: absolute;
+            transition: left 0.5s, opacity 0.5s;
+            background: $header_active_font_color;
         }
     }
 }

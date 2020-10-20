@@ -7,22 +7,36 @@ $home_section_font_size: 1.25rem;
 $home_section_bg_color: #f8f2ea;
 
 .p0 {
-    padding: 0;
+    padding: 0 !important;
 }
 .m0 {
-    margin: 0;
+    margin: 0 !important;
 }
 
 .p5 {
-    padding: 5px;
+    padding: 5px !important;
 }
 .m5 {
-    margin: 5px;
+    margin: 5px !important;
 }
 
 .pB5 {
-    padding-bottom: 5px;
+    padding-bottom: 5px !important;
 }
 .mB5 {
-    margin-bottom: 5px;
+    margin-bottom: 5px !important;
+}
+
+.pR5 {
+    padding-right: 5px !important;
+}
+.mR5 {
+    margin-right: 5px !important;
+}
+
+.pR0 {
+    padding-right: 0 !important;
+}
+.mR0 {
+    margin-right: 0 !important;
 }
