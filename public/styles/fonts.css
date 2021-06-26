@@ -9,3 +9,21 @@
     src: local("WorkSans-Regular"),
         url("./../fonts/workSans/WorkSans-Regular.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: "WorkSans-SemiBold";
+    src: local("WorkSans-SemiBold"),
+        url("./../fonts/workSans/WorkSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "WorkSans-Bold";
+    src: local("WorkSans-Bold"),
+        url("./../fonts/workSans/WorkSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "WorkSans-Light";
+    src: local("WorkSans-Light"),
+        url("./../fonts/workSans/WorkSans-Light.ttf") format("truetype");
+}

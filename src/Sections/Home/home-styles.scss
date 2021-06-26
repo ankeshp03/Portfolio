@@ -5,6 +5,10 @@
     position: relative;
     align-items: center;
     background: linear-gradient(90deg, #fafafa 0%, #eeeeee 100%);
+    .name {
+        font-size: 48px;
+        font-weight: bold;
+    }
     .imageContainer {
         width: calc(100% - 50px);
         height: 100%;

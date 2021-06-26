@@ -8,7 +8,7 @@ const Home = () => {
             <div className="imageContainer" />
             <Row>
                 <Col sm={12}>
-                    <p>Hi, I am <strong>Ankesh Paramanik</strong></p>
+                    <p>Hi, I am <span className="name">Ankesh Paramanik</span></p>
                     <p>A Front-end Developer</p>
                     <p>at Cognizant</p>
                 </Col>
