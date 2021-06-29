@@ -1,0 +1,54 @@
+{
+    "donutChart": [
+        {
+            "key": "No. of Words",
+            "displayKey": "No. of Words",
+            "value": 20,
+            "displayValue": "200"
+        },
+        {
+            "key": "No. of Images",
+            "displayKey": "No. of Images",
+            "value": 20,
+            "displayValue": "5"
+        },
+        {
+            "key": "No. of Colors Used",
+            "displayKey": "No. of Colors Used",
+            "value": 20,
+            "displayValue": "20"
+        }
+    ],
+    "verticalBarChart": [
+        {
+            "key": "HTML",
+            "displayKey": "HTML",
+            "value": 2,
+            "displayValue": "2%"
+        },
+        {
+            "key": "D3.js",
+            "displayKey": "D3.js",
+            "value": 5,
+            "displayValue": "5%"
+        },
+        {
+            "key": "JavaScript",
+            "displayKey": "JavaScript",
+            "value": 60,
+            "displayValue": "60%"
+        },
+        {
+            "key": "CSS",
+            "displayKey": "CSS",
+            "value": 20,
+            "displayValue": "20%"
+        },
+        {
+            "key": "Bootstrap",
+            "displayKey": "Bootstrap",
+            "value": 13,
+            "displayValue": "13%"
+        }
+    ]
+}

@@ -1,19 +1,28 @@
-.homeWrapper {
+.section--wrapper__home {
+    $home-bg-color: #FCF7F5;
+    $home-button-bg-color: #353175;
+    $home-button-font-color: #353175;
+    $home-button-hover-font-color: #FCF7F5;
+    $home-illustration-color: #DFAEA2;
+
     display: flex;
-    height: 100vh;
-    padding: 0 50px;
     position: relative;
     align-items: center;
-    background: linear-gradient(90deg, #fafafa 0%, #eeeeee 100%);
-    .name {
-        font-size: 48px;
-        font-weight: bold;
+    background: $home-bg-color;
+
+    .cta-button {
+        color: $home-button-font-color;
+        border: 1px solid $home-button-bg-color;
+        &:hover {
+            color: $home-button-hover-font-color;
+            background-color: $home-button-bg-color;
+        }
     }
-    .imageContainer {
-        width: calc(100% - 50px);
-        height: 100%;
-        position: absolute;
-        background: url("./../../assets/background.png") no-repeat;
-        background-position: 100% 100%;
+    
+    .content__image {
+        // width: 100px;
+        // height: 100px;
+        // background: url("./../../assets/background.png") no-repeat;
+        // background-position: 100% 100%;
     }
 }

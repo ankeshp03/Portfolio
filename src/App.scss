@@ -1,0 +1,34 @@
+@import './config/variables';
+
+body {
+    color: $default-font-color;
+}
+.wrapper {
+    min-height: $wrapper-min-height;
+    padding-top: $wrapper-padding-top;
+}
+
+.section--header {
+    font-family: 'WorkSans-Bold';
+    font-size: $section-header-font-size;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content {
+    &__text {
+        &--big {
+            font-size: $content-text-big-font-size;
+            font-weight: $content-text-big-font-weight;
+        }
+        &--medium {
+            font-size: $content-text-medium-font-size;
+            font-weight: $content-text-medium-font-weight;
+        }
+        &--regular {
+            font-size: $content-text-regular-font-size;
+            font-weight: $content-text-regular-font-weight;
+        }
+    }
+
+}

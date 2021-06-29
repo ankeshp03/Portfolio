@@ -5,18 +5,18 @@
         "path": "#home"
     },
     {
+        "key": "about",
+        "label": "About",
+        "path": "#about"
+    },
+    {
         "key": "work",
         "label": "Work",
         "path": "#work"
     },
     {
-        "key": "skils",
-        "label": "Skills",
-        "path": "#skils"
-    },
-    {
         "key": "contact",
-        "label": "Contact",
+        "label": "Contact Me",
         "path": "#contact"
     }
 ]
