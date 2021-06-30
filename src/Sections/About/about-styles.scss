@@ -1,0 +1,15 @@
+.section--wrapper__about {
+    .skills--row {
+        display: inline-flex;
+        .skills--list {
+            columns: 2;
+            list-style: square inside;
+        }
+    }
+    .about--col__image {
+        text-align: right;
+        .about-content--image {
+            width: 250px;
+        }
+    }
+}
