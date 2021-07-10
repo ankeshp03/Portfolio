@@ -6,7 +6,7 @@ import Photo from './../../assets/portfolio_image.png';
 
 const About = () => {
     return (
-        <Container id="about" fluid className="wrapper section--wrapper__about">
+        <Container id="about" fluid className="wrapper section--wrapper section--wrapper__about">
             <h2 className="section--header">About</h2>
             <Row>
                 <Col sm="8">

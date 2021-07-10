@@ -1,0 +1,55 @@
+.section--wrapper__footer {
+    $bg-color: #191438;
+    $color: #FCF7F5;
+    height: 300px;
+    background-color: $bg-color;
+    .form-container {
+        top: -1rem;
+        position: relative;
+    }
+    .footer--col__info {
+        display: flex;
+        justify-content: flex-end;
+        .container-right {
+            display: inline-block;
+            .email {
+                color: $color;
+                position: relative;
+                text-decoration: none;
+                &:before {
+                    content: '';
+                    width: 0;
+                    bottom: 0;
+                    height: 2px;
+                    position: absolute;
+                    transition: width 0.3s;
+                    background-color: $color;
+                }
+                &:hover:before {
+                    width: 100%;
+                }
+            }
+            .social-icons--container {
+                .social-icon {
+                    width: 25px;
+                    height: 25px;
+                    color: $color;
+                    font-size: 1.2rem;
+                    border-radius: 4px;
+                    align-items: center;
+                    display: inline-flex;
+                    text-decoration: none;
+                    justify-content: center;
+        
+                    &:not(:first-child) {
+                        margin-left: 1rem;
+                    }
+                }
+            }
+            .developer-info {
+                color: $color;
+                font-family: 'WorkSans-Light';
+            }
+        }
+    }
+}

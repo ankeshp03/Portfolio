@@ -5,7 +5,7 @@ import "./home-styles.scss";
 
 const Home = () => {
     return (
-        <Container id="home" fluid className="wrapper section--wrapper__home">
+        <Container id="home" fluid className="wrapper section--wrapper section--wrapper__home">
             <Row>
                 <Col sm={12}>
                     <p>

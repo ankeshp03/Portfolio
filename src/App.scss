@@ -4,8 +4,13 @@ body {
     color: $default-font-color;
 }
 .wrapper {
+    padding: 0 12.375rem;
+}
+
+.section--wrapper {
     min-height: $wrapper-min-height;
     padding-top: $wrapper-padding-top;
+
 }
 
 .section--header {

@@ -6,7 +6,7 @@ const Work = () => {
         <Container
             id="work"
             fluid
-            className="wrapper section--wrapper__work"
+            className="wrapper section--wrapper section--wrapper__work"
         >
             <h2 className="section--header">Work</h2>
         </Container>
