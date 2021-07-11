@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import AppSplitView from "./../../Components/AppSplitView";
+// import AppSplitView from "./../../Components/AppSplitView";
 // import "./home-styles.scss";
 
 const Home = () => {
