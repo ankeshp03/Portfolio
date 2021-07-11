@@ -1,38 +1,51 @@
 @import './config/variables';
+@import './config/theme';
+@import './Components/Header/header-styles.scss';
+@import './Sections/Home/home-styles.scss';
+@import './Sections/About/about-styles.scss';
+@import './Sections/Work/work-styles.scss';
+@import './Components/Footer/footer-styles.scss';
 
 body {
     color: $default-font-color;
 }
+
+.theme {
+    @include themed() {
+        background-color: apply_theme($bg-color);
+    }
+}
+
 .wrapper {
-    padding: 0 12.375rem;
+    padding: 0 14.5%; //12.375rem;
 }
 
 .section--wrapper {
-    min-height: $wrapper-min-height;
+    height: $wrapper-min-height;
     padding-top: $wrapper-padding-top;
 
 }
 
 .section--header {
-    font-family: 'WorkSans-Bold';
-    font-size: $section-header-font-size;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'WorkSans-Bold';
+    font-size: $section-header-font-size;
 }
 
 .content {
     &__text {
         &--big {
             font-size: $content-text-big-font-size;
-            font-weight: $content-text-big-font-weight;
+            line-height: $content-text-big-font-size;
+            font-family: $content-text-big-font-family;
         }
         &--medium {
             font-size: $content-text-medium-font-size;
-            font-weight: $content-text-medium-font-weight;
+            font-family: $content-text-big-font-family;
         }
         &--regular {
             font-size: $content-text-regular-font-size;
-            font-weight: $content-text-regular-font-weight;
         }
     }
 

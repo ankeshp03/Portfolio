@@ -1,17 +1,34 @@
-.section--wrapper__footer {
+.component--wrapper__footer {
     $bg-color: #191438;
     $color: #FCF7F5;
-    height: 300px;
     background-color: $bg-color;
+    position: relative;
+    .reference-grid {
+        display: none;
+        bottom: 0;
+        width: 71%;
+        position: absolute;
+    }
     .form-container {
-        top: -1rem;
+        top: -1.25rem;
         position: relative;
     }
     .footer--col__info {
         display: flex;
         justify-content: flex-end;
         .container-right {
-            display: inline-block;
+            display: inline-flex;
+            flex-direction: column;
+            .row {
+                align-items: flex-end;
+                &:first-of-type {
+                    flex-grow: 0.85;
+                }
+                &:last-of-type {
+                    flex-grow: 1;
+                    margin-bottom: 0.5rem;
+                }
+            }
             .email {
                 color: $color;
                 position: relative;
@@ -19,17 +36,18 @@
                 &:before {
                     content: '';
                     width: 0;
-                    bottom: 0;
-                    height: 2px;
+                    bottom: -1px;
+                    height: 1px;
                     position: absolute;
-                    transition: width 0.3s;
                     background-color: $color;
+                    transition: width 0.5s ease-in-out;
                 }
                 &:hover:before {
                     width: 100%;
                 }
             }
             .social-icons--container {
+                margin-top: 1rem;
                 .social-icon {
                     width: 25px;
                     height: 25px;

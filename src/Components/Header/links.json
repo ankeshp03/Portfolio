@@ -1,22 +1,7 @@
 [
     {
-        "key": "home",
-        "label": "Home",
-        "path": "#home"
-    },
-    {
-        "key": "about",
-        "label": "About",
-        "path": "#about"
-    },
-    {
-        "key": "work",
-        "label": "Work",
-        "path": "#work"
-    },
-    {
-        "key": "contact",
-        "label": "Contact Me",
-        "path": "#contact"
+        "key": "blog",
+        "label": "Blog",
+        "path": "#blog"
     }
 ]

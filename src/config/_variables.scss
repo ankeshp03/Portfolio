@@ -26,11 +26,18 @@ $footer-contact-bg-color: linear-gradient(155.19deg, #302A92 0%, #1E1A5E 84.19%)
 // ----- Font Size -----
 
 $section-header-font-size: 3rem;
-$content-text-big-font-size: 3rem;
-$content-text-medium-font-size: 1.5rem;
+$content-text-big-font-size: 2.5rem;
+$content-text-medium-font-size: 1.25rem;
 $content-text-regular-font-size: 18px;
 
 // ---------------------
+
+// ----- Font Family -----
+
+$content-text-big-font-family: 'WorkSans-Medium';
+$content-text-medium-font-family: 'WorkSans-Medium';
+
+// -----------------------
 
 // ----- Font Weight -----
 
@@ -200,4 +207,12 @@ $wrapper-padding-top: 50px;
 }
 .mB20 {
     margin-bottom: 20px !important;
+}
+
+.r-mB--0_5 {
+    margin-bottom: 0.5rem !important;
+}
+
+.r-mB--2 {
+    margin-bottom: 2rem !important;
 }

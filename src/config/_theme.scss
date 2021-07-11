@@ -1,0 +1,55 @@
+@import './color-theme-variables';
+
+$bg-color: 'bg-color';
+$font-color: 'font-color';
+$header-bg: 'header-bg';
+$header-brand-color: 'header-brand-color';
+$home-bg: 'home-bg';
+$home-cta-button-bg: 'home-cta-button-bg';
+$home-cta-button-font: 'home-cta-button-font';
+$home-cta-button-hover-font: 'home-cta-button-hover-font';
+$home-illustration-color: 'home-illustration-color';
+
+$themes: (
+        default: (
+            bg-color: $bg-color--light,
+            font-color: $font-color--light,
+            header-bg: $header-bg--light,
+            header-brand-color: $header-brand-color--light,
+            home-bg: $home-bg--light,
+            home-cta-button-bg: $home-cta-button-bg--light,
+            home-cta-button-font: $home-cta-button-font--light,
+            home-cta-button-hover-font: $home-cta-button-hover-font--light,
+            home-illustration-color: $home-illustration-color--light
+        ),
+        dark: (
+            bg-color: $bg-color--dark,
+            font-color: $font-color--dark,
+            header-bg: $header-bg--dark,
+            header-brand-color: $header-brand-color--dark,
+            home-bg: $home-bg--dark,
+            home-cta-button-bg: $home-cta-button-bg--dark,
+            home-cta-button-font: $home-cta-button-font--dark,
+            home-cta-button-hover-font: $home-cta-button-hover-font--dark,
+            home-illustration-color: $home-illustration-color--dark
+        )
+);
+
+@mixin themed() {
+    @each $theme, $map in $themes {
+      .theme--#{$theme} & {
+        $theme-map: () !global;
+        @each $key, $submap in $map {
+          $value: map-get(map-get($themes, $theme), '#{$key}');
+          $theme-map: map-merge($theme-map, ($key: $value)) !global;
+        }
+        @content;
+        $theme-map: null !global;
+      }
+    }
+  }
+  
+  @function apply_theme($key) {
+    @return map-get($theme-map, $key);
+    // @return #FCF7F5;
+  }

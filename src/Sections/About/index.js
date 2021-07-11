@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Skills from "./skills.json";
-import './about-styles.scss';
+// import './about-styles.scss';
 import Photo from './../../assets/portfolio_image.png';
 
 const About = () => {
