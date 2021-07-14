@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <Container id="home" fluid className="wrapper section--wrapper section--wrapper__home">
             <Row>
-                <Col sm={6}>
+                <Col lg={8}>
                     <p className="r-mB--0_5">
                         <span>Hi, I am </span>
                         <span className="content__text--big">
@@ -26,7 +26,7 @@ const Home = () => {
                     </p>
                     <Button variant="default" className="cta-button">Get In Touch</Button>
                 </Col>
-                {/* <Col sm={6}>
+                {/* <Col lg={4}>
                     <div className="content__interactive-display-view">
                         <AppSplitView />
                     </div>

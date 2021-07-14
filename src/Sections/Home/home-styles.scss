@@ -8,6 +8,8 @@
     $button-hover-font-color: #FCF7F5;
     $illustration-color: #DFAEA2;
 
+    height: 100vh;
+    min-height: 350px;
     position: relative;
     @include themed() {
         background-color: apply_theme($home-bg);
