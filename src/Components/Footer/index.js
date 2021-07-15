@@ -1,11 +1,20 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, OverlayTrigger, Tooltip } from "react-bootstrap";
 import FontAwesome from "react-fontawesome";
 import ContactForm from "./../ContactForm";
-// import "./footer-styles.scss";
+import socialIcons from "./socialIcons.json";
 import Grid from "./../../assets/reference_grid.svg";
 
 const Footer = () => {
+    const applyTooltip = (element, text) => (
+        <OverlayTrigger
+            placement="top"
+            overlay={<Tooltip className="social-icon--tooltip">{text}</Tooltip>}
+        >
+            {element}
+        </OverlayTrigger>
+    );
+
     return (
         <Container
             id="contact"
@@ -14,10 +23,10 @@ const Footer = () => {
         >
             <img src={Grid} className="reference-grid" alt="reference" />
             <Row>
-                <Col sm={6}>
+                <Col md={6}>
                     <ContactForm />
                 </Col>
-                <Col sm={6} className="footer--col__info">
+                <Col md={6} className="footer--col__info">
                     <div className="container-right">
                         <Row>
                             <Col sm={12}>
@@ -28,42 +37,28 @@ const Footer = () => {
                                     ank.paramanik@gmail.com
                                 </a>
                                 <div className="social-icons--container">
-                                    <a
-                                        href="twitter"
-                                        aria-label="Twitter"
-                                        className="social-icon"
-                                    >
-                                        <FontAwesome name="twitter" />
-                                    </a>
-                                    <a
-                                        href="linkedin"
-                                        aria-label="Linkedin"
-                                        className="social-icon"
-                                    >
-                                        <FontAwesome name="linkedin" />
-                                    </a>
-                                    <a
-                                        href="github"
-                                        aria-label="GitHub"
-                                        className="social-icon"
-                                    >
-                                        <FontAwesome name="github" />
-                                    </a>
-                                    <a
-                                        href="codepen"
-                                        aria-label="Codepen"
-                                        className="social-icon"
-                                    >
-                                        <FontAwesome name="codepen" />
-                                    </a>
+                                    {socialIcons.map((icon) =>
+                                        applyTooltip(
+                                            <a
+                                                href={icon.path}
+                                                aria-label={icon.label}
+                                                className="social-icon"
+                                            >
+                                                <FontAwesome
+                                                    name={icon.iconName}
+                                                />
+                                            </a>,
+                                            icon.tooltipText
+                                        )
+                                    )}
                                 </div>
                             </Col>
                         </Row>
                         <Row>
-                            <Col sm={12}>
+                            <Col sm={12} className="developer-info--container">
                                 <sup className="developer-info">
-                                    Designed & Developed by Ankesh Paramanik |
-                                    2021
+                                    Designed & Developed by Ankesh Paramanik
+                                    &#169; 2021
                                 </sup>
                             </Col>
                         </Row>

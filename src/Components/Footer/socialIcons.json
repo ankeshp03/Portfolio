@@ -1,0 +1,26 @@
+[
+    {
+        "path": "twitter",
+        "label": "Twitter",
+        "iconName": "twitter",
+        "tooltipText": "Connect with me on Twitter"
+    },
+    {
+        "path": "linkedin",
+        "label": "LinkedIn",
+        "iconName": "linkedin",
+        "tooltipText": "Connect with me on LinkedIn"
+    },
+    {
+        "path": "github",
+        "label": "GitHub",
+        "iconName": "github",
+        "tooltipText": "Check my GitHub"
+    },
+    {
+        "path": "codepen",
+        "label": "Codepen",
+        "iconName": "codepen",
+        "tooltipText": "Check my pens in Codepen"
+    }
+]

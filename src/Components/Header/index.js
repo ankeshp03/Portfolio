@@ -12,7 +12,7 @@ const Header = ({ toggleTheme }) => {
             fixed="top"
             expand="lg"
             variant="light"
-            className="headerNav"
+            className="wrapper header-nav"
         >
             <Navbar.Brand href="#home">
                 <Image src={Logo} alt="Logo" />

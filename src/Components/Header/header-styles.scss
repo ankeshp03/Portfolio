@@ -1,7 +1,10 @@
-.headerNav {
+.header-nav {
     padding: 5px 50px;
     font-family: 'WorkSans-Medium';
     @include themed() {
         background-color: apply_theme($header-bg);
+    }
+    .navbar-nav {
+        flex-direction: row;
     }
 }
