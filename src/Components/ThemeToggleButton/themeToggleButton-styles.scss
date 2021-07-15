@@ -1,0 +1,31 @@
+.theme-toggle--button {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 4px 4px 15px rgba(53, 49, 117, 0.2);
+    position: relative;
+    display: none;
+    span {
+        display: inline-block;
+    }
+    .shape {
+        border-radius: 50%;
+        &.moon {
+            width: 20px;
+            height: 20px;
+            box-shadow: inset -6px -5px $theme-button-color;
+        }
+        &.sun {
+            width: 10px;
+            height: 10px;
+            box-shadow: inset 10px 10px $theme-button-color;
+            & ~ .ray {
+                position: absolute;
+            }
+        }
+    }
+}

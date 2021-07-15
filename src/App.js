@@ -14,7 +14,12 @@ function App() {
             className={`App ${isDarkTheme ? "theme--dark" : "theme--default"}`}
         >
             <div className="theme">
-                <Header toggleTheme={toggleTheme} />
+                <Header
+                    theme={{
+                        clickCallback: toggleTheme,
+                        buttonType: isDarkTheme ? "sun" : "sun"
+                    }}
+                />
                 <LandingPage />
                 <Footer />
             </div>

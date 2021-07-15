@@ -1,11 +1,11 @@
 import React from "react";
-import { Navbar, Nav, Image, Button } from "react-bootstrap";
-import { propTypes } from "react-bootstrap/esm/Image";
+import PropTypes from "prop-types";
+import { Navbar, Nav, Image } from "react-bootstrap";
 import Logo from "./../../assets/logo.svg";
 import links from "./links.json";
-// import "./header-styles.scss";
+import ToggleThemeButton from "./../ThemeToggleButton";
 
-const Header = ({ toggleTheme }) => {
+const Header = ({ theme }) => {
     return (
         <Navbar
             collapseOnSelect
@@ -36,20 +36,19 @@ const Header = ({ toggleTheme }) => {
                         {label}
                     </Nav.Link>
                 ))}
-                <Button
-                    variant="default"
-                    className="theme-toggle--button"
-                    onClick={toggleTheme}
-                >
+                <ToggleThemeButton theme={theme}>
                     <span>moons</span>
-                </Button>
+                </ToggleThemeButton>
             </Nav>
         </Navbar>
     );
 };
 
-Header.propTypes = {
-    toggleTheme: propTypes.function
+Header.PropTypes = {
+    theme: {
+        buttonType: PropTypes.string,
+        clickCallback: PropTypes.function
+    }
 };
 
 export default Header;

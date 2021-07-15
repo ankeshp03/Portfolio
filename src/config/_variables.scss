@@ -8,6 +8,8 @@ $wrapper-min-height: 100vh;
 
 $default-font-color: #333;
 
+$theme-button-color: #353175;
+
 $about-bg-color: #EBCEAE;
 $about-font-color: #EBCEAE;
 $about-image-shadow-color: #EBCEAE;
@@ -60,6 +62,13 @@ $wrapper-padding-top: 50px;
 }
 .m0 {
     margin: 0 !important;
+}
+
+.p5 {
+    padding: 5px !important;
+}
+.m5 {
+    margin: 5px !important;
 }
 
 .p10 {
