@@ -47,7 +47,7 @@ const Header = ({ theme }) => {
 Header.PropTypes = {
     theme: {
         buttonType: PropTypes.string,
-        clickCallback: PropTypes.function
+        clickCallback: PropTypes.func
     }
 };
 

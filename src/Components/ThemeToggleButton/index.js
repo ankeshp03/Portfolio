@@ -27,7 +27,7 @@ const ThemeToggleButton = ({ theme: { buttonType, clickCallback } }) => {
 ThemeToggleButton.PropTypes = {
     theme: {
         buttonType: PropTypes.string,
-        clickCallback: PropTypes.function
+        clickCallback: PropTypes.func
     }
 };
 
