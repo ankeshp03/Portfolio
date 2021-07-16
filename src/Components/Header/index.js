@@ -5,7 +5,7 @@ import Logo from "./../../assets/logo.svg";
 import links from "./links.json";
 import ToggleThemeButton from "./../ThemeToggleButton";
 
-let Header = ({ theme }) => {
+const Header = ({ theme }) => {
     return (
         <Navbar
             collapseOnSelect
@@ -44,7 +44,7 @@ let Header = ({ theme }) => {
     );
 };
 
-Header.PropTypes = {
+Header.propTypes = {
     theme: {
         buttonType: PropTypes.string,
         clickCallback: PropTypes.func
