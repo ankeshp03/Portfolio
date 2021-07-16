@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Button } from "react-bootstrap";
 
-const ThemeToggleButton = ({ theme: { buttonType, clickCallback } }) => {
+let ThemeToggleButton = ({ theme: { buttonType, clickCallback } }) => {
     return (
         <Button
             variant="default"

@@ -5,7 +5,7 @@ import Logo from "./../../assets/logo.svg";
 import links from "./links.json";
 import ToggleThemeButton from "./../ThemeToggleButton";
 
-const Header = ({ theme }) => {
+let Header = ({ theme }) => {
     return (
         <Navbar
             collapseOnSelect
