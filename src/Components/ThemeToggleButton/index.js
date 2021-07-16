@@ -10,14 +10,16 @@ const ThemeToggleButton = ({ theme: { buttonType, clickCallback } }) => {
             onClick={clickCallback}
         >
             <span className={`shape ${buttonType}`}></span>
-            <span className="ray"></span>
-            <span className="ray"></span>
-            <span className="ray"></span>
-            <span className="ray"></span>
-            <span className="ray"></span>
-            <span className="ray"></span>
-            <span className="ray"></span>
-            <span className="ray"></span>
+            <span className="rays--container">
+                <span className="ray"></span>
+                <span className="ray"></span>
+                <span className="ray"></span>
+                <span className="ray"></span>
+                {/* <span className="ray"></span>
+                <span className="ray"></span>
+                <span className="ray"></span>
+                <span className="ray"></span> */}
+            </span>
         </Button>
     );
 };

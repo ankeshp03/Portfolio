@@ -17,7 +17,7 @@ function App() {
                 <Header
                     theme={{
                         clickCallback: toggleTheme,
-                        buttonType: isDarkTheme ? "sun" : "sun"
+                        buttonType: isDarkTheme ? "sun" : "moon"
                     }}
                 />
                 <LandingPage />
