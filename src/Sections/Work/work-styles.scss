@@ -1,0 +1,18 @@
+.section--wrapper__work {
+    .work--card__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .work--card {
+        flex: 0 0 50%;
+        .card-body {
+            padding: 0.5rem;
+            .work--card__text-content {
+                padding: 0.75rem;
+                .card-title {
+                    font-family: 'WorkSans-Medium';
+                }
+            }
+        }
+    }
+}
