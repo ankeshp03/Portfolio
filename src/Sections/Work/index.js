@@ -15,14 +15,14 @@ const Work = () => {
                         <Card.Img
                             src="http://lorempixel.com/400/200"
                         />
-                        <div className="work--card__text-content mT10">
-                            <Card.Title>Card Title</Card.Title>
+                        <div className="work--card__text-content">
+                            <Card.Title>Project 1</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card
                                 title and make up the bulk of the card's
                                 content.
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="default" className="work--card__button">Visit Website</Button>
                         </div>
                     </Card.Body>
                 </Card>
@@ -32,14 +32,14 @@ const Work = () => {
                         <Card.Img
                             src="http://lorempixel.com/400/200"
                         />
-                        <div className="work--card__text-content mT10">
-                            <Card.Title>Card Title</Card.Title>
+                        <div className="work--card__text-content">
+                            <Card.Title>Project 2</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card
                                 title and make up the bulk of the card's
                                 content.
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="default" className="work--card__button">Visit Website</Button>
                         </div>
                     </Card.Body>
                 </Card>
@@ -49,14 +49,14 @@ const Work = () => {
                         <Card.Img
                             src="http://lorempixel.com/400/200"
                         />
-                        <div className="work--card__text-content mT10">
-                            <Card.Title>Card Title</Card.Title>
+                        <div className="work--card__text-content">
+                            <Card.Title>Project 3</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card
                                 title and make up the bulk of the card's
                                 content.
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="default" className="work--card__button">Visit Website</Button>
                         </div>
                     </Card.Body>
                 </Card>
@@ -66,14 +66,14 @@ const Work = () => {
                         <Card.Img
                             src="http://lorempixel.com/400/200"
                         />
-                        <div className="work--card__text-content mT10">
-                            <Card.Title>Card Title</Card.Title>
+                        <div className="work--card__text-content">
+                            <Card.Title>Project 4</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card
                                 title and make up the bulk of the card's
                                 content.
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="default" className="work--card__button">Visit Website</Button>
                         </div>
                     </Card.Body>
                 </Card>

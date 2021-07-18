@@ -1,16 +1,31 @@
 .section--wrapper__work {
+    $button-bg-color: #353175;
+    $button-font-color: #353175;
+    $button-hover-font-color: #FCF7F5;
     .work--card__container {
+        gap: 2rem;
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
     .work--card {
-        flex: 0 0 50%;
+        border: none;
+        flex: 0 0 calc(50% - 1rem);
+        box-shadow: 2px 2px 15px rgba(53, 49, 117, 0.1);
         .card-body {
             padding: 0.5rem;
             .work--card__text-content {
                 padding: 0.75rem;
+                margin-top: 0.25rem;
                 .card-title {
                     font-family: 'WorkSans-Medium';
+                }
+                .work--card__button {
+                    color: $button-font-color;
+                    &:hover {
+                        color: $button-hover-font-color;
+                        background-color: $button-bg-color;
+                    }
                 }
             }
         }

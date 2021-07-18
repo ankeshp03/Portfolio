@@ -51,5 +51,4 @@ $themes: (
   
   @function apply_theme($key) {
     @return map-get($theme-map, $key);
-    // @return #FCF7F5;
   }

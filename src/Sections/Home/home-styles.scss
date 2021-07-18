@@ -1,8 +1,4 @@
 .section--wrapper__home {
-    // @include themed() {
-    //     $bg-color: apply_theme($home-bg);
-    //   }
-    // $bg-color: apply_theme($home-bg); // #FCF7F5;
     $button-bg-color: #353175;
     $button-font-color: #353175;
     $button-hover-font-color: #FCF7F5;
@@ -14,14 +10,12 @@
     @include themed() {
         background-color: apply_theme($home-bg);
       }
-    // background: $bg-color;
     &>.row {
         height: 100%;
         align-items: center;
     }
     .cta-button {
         color: $button-font-color;
-        border: 1px solid $button-bg-color;
         &:hover {
             color: $button-hover-font-color;
             background-color: $button-bg-color;

@@ -30,8 +30,8 @@
     }
     .submit-btn {
         width: 6rem;
+        border-color: #9BF21D;
         color: $button-font-color;
-        border: 1px solid #9BF21D;
         &:hover {
             background-color: #9BF21D;
             color: $button-hover-font-color;
