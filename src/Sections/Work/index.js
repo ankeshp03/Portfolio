@@ -13,7 +13,7 @@ const Work = () => {
                 <Card className="work--card">
                     <Card.Body>
                         <Card.Img
-                            src="http://lorempixel.com/400/200"
+                            src="https://picsum.photos/400/200"
                         />
                         <div className="work--card__text-content">
                             <Card.Title>Project 1</Card.Title>
@@ -30,7 +30,7 @@ const Work = () => {
                 <Card className="work--card">
                     <Card.Body>
                         <Card.Img
-                            src="http://lorempixel.com/400/200"
+                            src="https://picsum.photos/400/200"
                         />
                         <div className="work--card__text-content">
                             <Card.Title>Project 2</Card.Title>
@@ -47,7 +47,7 @@ const Work = () => {
                 <Card className="work--card">
                     <Card.Body>
                         <Card.Img
-                            src="http://lorempixel.com/400/200"
+                            src="https://picsum.photos/400/200"
                         />
                         <div className="work--card__text-content">
                             <Card.Title>Project 3</Card.Title>
@@ -64,7 +64,7 @@ const Work = () => {
                 <Card className="work--card">
                     <Card.Body>
                         <Card.Img
-                            src="http://lorempixel.com/400/200"
+                            src="https://picsum.photos/400/200"
                         />
                         <div className="work--card__text-content">
                             <Card.Title>Project 4</Card.Title>
