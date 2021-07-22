@@ -25,10 +25,7 @@ const ThemeToggleButton = ({ theme: { buttonType, clickCallback } }) => {
 };
 
 ThemeToggleButton.propTypes = {
-    theme: {
-        buttonType: PropTypes.string,
-        clickCallback: PropTypes.func
-    }
+    theme: PropTypes.object
 };
 
 export default ThemeToggleButton;

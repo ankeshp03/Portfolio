@@ -11,7 +11,12 @@
     .work--card {
         border: none;
         flex: 0 0 calc(50% - 1rem);
-        box-shadow: 2px 2px 15px rgba(53, 49, 117, 0.1);
+        transition: background-color $theme-transition-duration,
+            box-shadow $theme-transition-duration;
+        @include themed() {
+            background-color: apply_theme($work-card-bg);
+            box-shadow: apply_theme($work-card-shadow);
+        }
         .card-body {
             padding: 0.5rem;
             .work--card__text-content {

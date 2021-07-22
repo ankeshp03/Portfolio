@@ -8,9 +8,22 @@
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    box-shadow: 4px 4px 15px rgba(53, 49, 117, 0.2);
+    @include themed() {
+        box-shadow: apply_theme(theme-btn-shadow);
+    }
+    
     &.btn-default {
         border: none;
+    }
+    &:focus {
+        @include themed() {
+            box-shadow: apply_theme(theme-btn-shadow);
+        }
+    }
+    &:active {
+        @include themed() {
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
     }
     span {
         display: inline-block;

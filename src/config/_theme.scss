@@ -9,6 +9,10 @@ $home-cta-button-bg: 'home-cta-button-bg';
 $home-cta-button-font: 'home-cta-button-font';
 $home-cta-button-hover-font: 'home-cta-button-hover-font';
 $home-illustration-color: 'home-illustration-color';
+$work-card-bg: 'work-card-bg';
+$work-card-shadow: 'work-card-shadow';
+$header-shadow: 'header-shadow';
+$theme-btn-shadow: 'theme-btn-shadow';
 
 $themes: (
         default: (
@@ -20,7 +24,11 @@ $themes: (
             home-cta-button-bg: $home-cta-button-bg--light,
             home-cta-button-font: $home-cta-button-font--light,
             home-cta-button-hover-font: $home-cta-button-hover-font--light,
-            home-illustration-color: $home-illustration-color--light
+            home-illustration-color: $home-illustration-color--light,
+            work-card-bg: $work-card-bg--light,
+            work-card-shadow: $work-card-shadow--light,
+            header-shadow: $header-shadow--light,
+            theme-btn-shadow: $theme-btn-shadow--light
         ),
         dark: (
             bg-color: $bg-color--dark,
@@ -31,7 +39,11 @@ $themes: (
             home-cta-button-bg: $home-cta-button-bg--dark,
             home-cta-button-font: $home-cta-button-font--dark,
             home-cta-button-hover-font: $home-cta-button-hover-font--dark,
-            home-illustration-color: $home-illustration-color--dark
+            home-illustration-color: $home-illustration-color--dark,
+            work-card-bg: $work-card-bg--dark,
+            work-card-shadow: $work-card-shadow--dark,
+            header-shadow: $header-shadow--dark,
+            theme-btn-shadow: $theme-btn-shadow--dark
         )
 );
 

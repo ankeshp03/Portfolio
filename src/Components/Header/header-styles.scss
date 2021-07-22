@@ -1,7 +1,14 @@
 .header-nav {
     font-family: 'WorkSans-Medium';
+    transition: box-shadow $theme-transition-duration, 
+        background-color $theme-transition-duration;
     @include themed() {
         background-color: apply_theme($header-bg);
+    }
+    &.header--shadow {
+        @include themed() {
+            box-shadow: apply_theme($header-shadow);
+        }
     }
     &.wrapper {
         padding-top: 0.8rem;

@@ -5,11 +5,11 @@ import Work from './../Sections/Work';
 
 function LandingPage() {
     return (
-        <div>
+        <>
             <Home />
             <About />
             <Work />
-        </div>
+        </>
     )
 }
 

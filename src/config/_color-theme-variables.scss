@@ -1,11 +1,17 @@
+$theme-transition-duration: 0.3s;
+
 // ----- Default theme -----
 
-$bg-color--light: #fff;
+$bg-color--light: #fdfdfd;
 $font-color--light: #333;
 
 //Header
 $header-bg--light: #FCF7F5;
 $header-brand-color--light: #333;
+$header-shadow--light: 0 1px 30px 0 rgba(145, 145, 145, 0.2);
+
+// Theme toggle button
+$theme-btn-shadow--light: 0 1px 30px 0 rgba(53, 49, 117, 0.2);
 
 // Home
 $home-bg--light: #FCF7F5;
@@ -18,7 +24,8 @@ $home-illustration-color--light: #DFAEA2;
 
 
 //Work
-
+$work-card-bg--light: #fff;
+$work-card-shadow--light: 4px 4px 15px rgba(53, 49, 117, 0.1);
 
 //Footer
 
@@ -30,11 +37,15 @@ $bg-color--dark: #191438;
 $font-color--dark: #FCF7F5;
 
 //Header
-$header-bg--dark: #040409;
-$header-brand-color--dark: #333;
+$header-bg--dark: #1d1e42;
+$header-brand-color--dark: #FCF7F5;
+$header-shadow--dark: 0 1px 30px 0 rgba(20, 18, 43, 0.9);
+
+// Theme toggle button
+$theme-btn-shadow--dark: 4px 4px 15px rgba(20, 18, 43, 0.9);
 
 // Home
-$home-bg--dark: #040409;
+$home-bg--dark: #1d1e42;
 $home-cta-button-bg--dark: #353175;
 $home-cta-button-font--dark: #353175;
 $home-cta-button-hover-font--dark: #FCF7F5;
@@ -44,6 +55,7 @@ $home-illustration-color--dark: #353175;
 
 
 //Work
-
+$work-card-bg--dark: #1d1e42;
+$work-card-shadow--dark: 2px 2px 15px rgba(20, 18, 43, 0.9);
 
 //Footer

@@ -7,14 +7,13 @@
 @import './Sections/Work/work-styles.scss';
 @import './Components/Footer/footer-styles.scss';
 
-body {
-    color: $default-font-color;
-}
-
 .theme {
     @include themed() {
+        color: apply_theme($font-color);
         background-color: apply_theme($bg-color);
     }
+    transition: color $theme-transition-duration,
+        background-color $theme-transition-duration;
 }
 
 .wrapper {

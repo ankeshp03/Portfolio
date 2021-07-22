@@ -10,6 +10,7 @@
     @include themed() {
         background-color: apply_theme($home-bg);
       }
+      transition: background-color $theme-transition-duration;
     &>.row {
         height: 100%;
         align-items: center;
