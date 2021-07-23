@@ -1,25 +1,32 @@
 .section--wrapper__home {
-    $button-bg-color: #353175;
-    $button-font-color: #353175;
-    $illustration-color: #DFAEA2;
-    $button-hover-font-color: #FCF7F5;
+    // $button-bg-color: #353175;
+    // $button-font-color: #353175;
+    // $illustration-color: #DFAEA2;
+    // $button-hover-font-color: #FCF7F5;
 
     height: 100vh;
     min-height: 350px;
     position: relative;
     @include themed() {
         background-color: apply_theme($home-bg);
-      }
-      transition: background-color $theme-transition-duration;
+    }
+    transition: background-color $theme-transition-duration;
     &>.row {
         height: 100%;
         align-items: center;
     }
     .cta-button {
-        color: $button-font-color;
+        @include themed() {
+            color: apply_theme($home-cta-button-font);
+            border-color: apply_theme($home-cta-button-bg);
+        }
         &:hover {
-            color: $button-hover-font-color;
-            background-color: $button-bg-color;
+            @include themed() {
+                color: apply_theme($home-cta-button-hover-font);
+                background-color: apply_theme($home-cta-button-bg);
+            }
+            // color: $button-hover-font-color;
+            // background-color: $button-bg-color;
         }
     }
     

@@ -26,11 +26,21 @@
                     font-family: 'WorkSans-Medium';
                 }
                 .work--card__button {
-                    color: $button-font-color;
-                    &:hover {
-                        color: $button-hover-font-color;
-                        background-color: $button-bg-color;
+                    @include themed() {
+                        color: apply_theme($work-card-button-font);
+                        border-color: apply_theme($work-card-button-bg);
                     }
+                    &:hover {
+                        @include themed() {
+                            color: apply_theme($work-card-button-hover-font);
+                            background-color: apply_theme($work-card-button-bg);
+                        }
+                    }
+                    // color: $button-font-color;
+                    // &:hover {
+                    //     color: $button-hover-font-color;
+                    //     background-color: $button-bg-color;
+                    // }
                 }
             }
         }

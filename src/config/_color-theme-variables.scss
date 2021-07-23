@@ -26,6 +26,9 @@ $home-illustration-color--light: #DFAEA2;
 //Work
 $work-card-bg--light: #fff;
 $work-card-shadow--light: 4px 4px 15px rgba(53, 49, 117, 0.1);
+$work-card-button-bg--light: #353175;
+$work-card-button-font--light: #353175;
+$work-card-button-hover-font--light: #FCF7F5;
 
 //Footer
 
@@ -33,11 +36,11 @@ $work-card-shadow--light: 4px 4px 15px rgba(53, 49, 117, 0.1);
 
 // ----- Dark theme -----
 
-$bg-color--dark: #191438;
+$bg-color--dark: #01121f; //#141532; //#191438;
 $font-color--dark: #a1a8be; //#FCF7F5;
 
 //Header
-$header-bg--dark: #1d1e42;
+$header-bg--dark: #011627; //#1d1e42;
 $header-brand-color--dark: #FCF7F5;
 $header-shadow--dark: 0 1px 30px 0 rgba(20, 18, 43, 0.9);
 
@@ -45,10 +48,10 @@ $header-shadow--dark: 0 1px 30px 0 rgba(20, 18, 43, 0.9);
 $theme-btn-shadow--dark: 4px 4px 15px rgba(20, 18, 43, 0.9);
 
 // Home
-$home-bg--dark: #1d1e42;
-$home-cta-button-bg--dark: #353175;
-$home-cta-button-font--dark: #353175;
-$home-cta-button-hover-font--dark: #FCF7F5;
+$home-bg--dark: #011627; //#1d1e42;
+$home-cta-button-bg--dark: #9BF21D;
+$home-cta-button-font--dark: #a1a8be;
+$home-cta-button-hover-font--dark: #011627;
 $home-illustration-color--dark: #353175;
 
 //About
@@ -57,5 +60,8 @@ $home-illustration-color--dark: #353175;
 //Work
 $work-card-bg--dark: #1d1e42;
 $work-card-shadow--dark: 2px 2px 15px rgba(20, 18, 43, 0.9);
+$work-card-button-bg--dark: #9BF21D;
+$work-card-button-font--dark: #a1a8be;
+$work-card-button-hover-font--dark: #011627;
 
 //Footer

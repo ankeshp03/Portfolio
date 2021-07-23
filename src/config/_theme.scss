@@ -13,6 +13,9 @@ $work-card-bg: 'work-card-bg';
 $work-card-shadow: 'work-card-shadow';
 $header-shadow: 'header-shadow';
 $theme-btn-shadow: 'theme-btn-shadow';
+$work-card-button-bg: 'work-card-button-bg';
+$work-card-button-font: 'work-card-button-font';
+$work-card-button-hover-font: 'work-card-button-hover-font';
 
 $themes: (
         default: (
@@ -27,6 +30,9 @@ $themes: (
             home-illustration-color: $home-illustration-color--light,
             work-card-bg: $work-card-bg--light,
             work-card-shadow: $work-card-shadow--light,
+            work-card-button-bg: $work-card-button-bg--light,
+            work-card-button-font: $work-card-button-font--light,
+            work-card-button-hover-font: $work-card-button-hover-font--light,
             header-shadow: $header-shadow--light,
             theme-btn-shadow: $theme-btn-shadow--light
         ),
@@ -42,6 +48,9 @@ $themes: (
             home-illustration-color: $home-illustration-color--dark,
             work-card-bg: $work-card-bg--dark,
             work-card-shadow: $work-card-shadow--dark,
+            work-card-button-bg: $work-card-button-bg--dark,
+            work-card-button-font: $work-card-button-font--dark,
+            work-card-button-hover-font: $work-card-button-hover-font--dark,
             header-shadow: $header-shadow--dark,
             theme-btn-shadow: $theme-btn-shadow--dark
         )
