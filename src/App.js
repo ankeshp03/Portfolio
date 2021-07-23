@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { lazy, Suspense, useState } from "react";
 import "./App.scss";
 import Header from "./Components/Header";
-import Footer from "./Components/Footer";
 import LandingPage from "./LandingPage";
+const Footer = lazy(() => import("./Components/Footer"));
 
 function App() {
     const [isDarkTheme, setDarkThemeStatus] = useState(false);
@@ -21,7 +21,9 @@ function App() {
                     }}
                 />
                 <LandingPage />
-                <Footer />
+                <Suspense fallback="Loading...">
+                    <Footer />
+                </Suspense>
             </div>
         </div>
     );

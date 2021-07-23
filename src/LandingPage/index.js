@@ -1,16 +1,18 @@
-import React from 'react';
-import Home from './../Sections/Home';
-import About from './../Sections/About';
-import Work from './../Sections/Work';
+import React, { lazy, Suspense } from "react";
+import Home from "./../Sections/Home";
+const About = lazy(() => import("./../Sections/About"));
+const Work = lazy(() => import("./../Sections/Work"));
 
 function LandingPage() {
     return (
         <>
             <Home />
-            <About />
-            <Work />
+            <Suspense fallback="Loading...">
+                <About />
+                <Work />
+            </Suspense>
         </>
-    )
+    );
 }
 
 export default LandingPage;
