@@ -14,6 +14,7 @@ const Work = () => {
                     <Card.Body>
                         <Card.Img
                             src="https://picsum.photos/400/200"
+                            alt="Project Image"
                         />
                         <div className="work--card__text-content">
                             <Card.Title>Project 1</Card.Title>
@@ -31,6 +32,7 @@ const Work = () => {
                     <Card.Body>
                         <Card.Img
                             src="https://picsum.photos/400/200"
+                            alt="Project Image"
                         />
                         <div className="work--card__text-content">
                             <Card.Title>Project 2</Card.Title>
@@ -48,6 +50,7 @@ const Work = () => {
                     <Card.Body>
                         <Card.Img
                             src="https://picsum.photos/400/200"
+                            alt="Project Image"
                         />
                         <div className="work--card__text-content">
                             <Card.Title>Project 3</Card.Title>
@@ -65,6 +68,7 @@ const Work = () => {
                     <Card.Body>
                         <Card.Img
                             src="https://picsum.photos/400/200"
+                            alt="Project Image"
                         />
                         <div className="work--card__text-content">
                             <Card.Title>Project 4</Card.Title>

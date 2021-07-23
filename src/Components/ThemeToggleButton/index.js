@@ -8,6 +8,7 @@ const ThemeToggleButton = ({ theme: { buttonType, clickCallback } }) => {
             variant="default"
             className="theme-toggle--button p0"
             onClick={clickCallback}
+            aria-label="Theme Toggle"
         >
             <span className={`shape ${buttonType}`}></span>
             <span className="rays--container">
