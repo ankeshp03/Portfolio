@@ -27,7 +27,7 @@ const Header = ({ theme }) => {
             ref={headerRef}
             collapseOnSelect
             fixed="top"
-            expand="lg"
+            expand="true"
             variant="light"
             className={`wrapper header-nav${headerClass}`}
         >

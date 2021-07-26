@@ -7,12 +7,12 @@ const ContactForm = () => {
         <div className="container__contact-form form-container">
             <h2 className="section--header__contact mB15">Contact</h2>
             <Form>
-                <Form.Group controlId="name">
+                <Form.Group controlId="name" className="r-mB--1">
                     <Form.Label>Name</Form.Label>
                     <Form.Control type="text" />
                 </Form.Group>
 
-                <Form.Group controlId="emailId">
+                <Form.Group controlId="emailId" className="r-mB--1">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control type="email" />
                 </Form.Group>
