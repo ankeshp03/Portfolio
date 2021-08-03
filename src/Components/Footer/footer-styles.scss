@@ -1,7 +1,10 @@
 .component--wrapper__footer {
-    $bg-color: #191438;
+    // $bg-color: #191438;
     $color: #a1a8be;
-    background-color: $bg-color;
+    @include themed() {
+        background-color: apply_theme($footer-bg);
+    }
+    transition: background-color $theme-transition-duration;
     position: relative;
     .reference-grid {
         display: none;
@@ -103,13 +106,12 @@
     }
 }
 .social-icon--tooltip {
-    color: #FCF7F5;
     filter: drop-shadow(0px 0px 15px #080228);
     .tooltip-inner {
         padding: 0.5rem;
         background-color: #302A92;
     }
-    .arrow::before {
+    .tooltip-arrow::before {
         border-top-color: #302A92;
     }
     &.show {

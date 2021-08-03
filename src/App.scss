@@ -6,6 +6,7 @@
 @import './Sections/About/about-styles.scss';
 @import './Sections/Work/work-styles.scss';
 @import './Components/Footer/footer-styles.scss';
+@import './Components/ContactForm/contactForm-styles.scss';
 
 .theme {
     @include themed() {

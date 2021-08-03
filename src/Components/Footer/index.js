@@ -8,6 +8,7 @@ import Grid from "./../../assets/reference_grid.svg";
 const Footer = () => {
     const applyTooltip = (element, text) => (
         <OverlayTrigger
+            key={text}
             placement="top"
             overlay={<Tooltip className="social-icon--tooltip">{text}</Tooltip>}
         >

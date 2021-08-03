@@ -22,3 +22,10 @@
         }
     }
 }
+
+.theme--dark {
+    .navbar-brand img {
+        filter: hue-rotate(345deg) contrast(0.25);
+        transition: filter $theme-transition-duration;
+    }
+}

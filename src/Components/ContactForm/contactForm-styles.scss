@@ -1,14 +1,18 @@
 .container__contact-form {
-    $label-color: #FCF7F5;
-    $input-color: #353175;
-    $button-font-color: #FCF7F5;
+    // $label-color: #FCF7F5;
+    // $input-color: #353175;
+    // $button-font-color: #FCF7F5;
     $button-hover-font-color: #353175;
     max-width: 20rem;
     padding: 1.25rem;
     border-radius: 4px;
-    color: $label-color;
     box-shadow: 5px 10px 25px rgba(20, 18, 43, 0.9);
-    background: linear-gradient(155deg, #302A92 0%, #1E1A5E 85%);
+    @include themed() {
+        color: apply_theme($contact-form-font);
+        background: apply_theme($contact-form-bg-color);
+    }
+    transition: color $theme-transition-duration,
+        background $theme-transition-duration;
     .section--header__contact {
         line-height: 2rem;
         font-family: 'WorkSans-Bold';
@@ -31,7 +35,10 @@
     .submit-btn {
         width: 6rem;
         border-color: #9BF21D;
-        color: $button-font-color;
+        @include themed() {
+            color: apply_theme($contact-form-font);
+        }
+        transition: color $theme-transition-duration;
         &:hover {
             background-color: #9BF21D;
             color: $button-hover-font-color;

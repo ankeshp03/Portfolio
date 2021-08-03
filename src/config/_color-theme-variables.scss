@@ -31,16 +31,21 @@ $work-card-button-font--light: #353175;
 $work-card-button-hover-font--light: #FCF7F5;
 
 //Footer
+$footer-bg--light: #191438;
+
+//Contact Form
+$contact-form-font--light: #FCF7F5;
+$contact-form-bg-color--light: linear-gradient(155deg, #302A92 0%, #1E1A5E 85%);
 
 
 
 // ----- Dark theme -----
 
-$bg-color--dark: #01121f; //#141532; //#191438;
+$bg-color--dark: #11192c; //#01121f; //#141532; //#191438;
 $font-color--dark: #a1a8be; //#FCF7F5;
 
 //Header
-$header-bg--dark: #011627; //#1d1e42;
+$header-bg--dark: #1f2a42; //#011627; //#1d1e42;
 $header-brand-color--dark: #FCF7F5;
 $header-shadow--dark: 0 1px 30px 0 rgba(20, 18, 43, 0.9);
 
@@ -48,7 +53,7 @@ $header-shadow--dark: 0 1px 30px 0 rgba(20, 18, 43, 0.9);
 $theme-btn-shadow--dark: 4px 4px 15px rgba(20, 18, 43, 0.9);
 
 // Home
-$home-bg--dark: #011627; //#1d1e42;
+$home-bg--dark: #1f2a42; //#011627; //#1d1e42;
 $home-cta-button-bg--dark: #9BF21D;
 $home-cta-button-font--dark: #a1a8be;
 $home-cta-button-hover-font--dark: #011627;
@@ -58,10 +63,16 @@ $home-illustration-color--dark: #353175;
 
 
 //Work
-$work-card-bg--dark: #1d1e42;
+$work-card-bg--dark: #131d32; //#1d1e42;
 $work-card-shadow--dark: 2px 2px 15px rgba(20, 18, 43, 0.9);
 $work-card-button-bg--dark: #9BF21D;
 $work-card-button-font--dark: #a1a8be;
 $work-card-button-hover-font--dark: #011627;
 
+
 //Footer
+$footer-bg--dark: #1b223e;
+
+//Contact Form
+$contact-form-font--dark: #a1a8be;
+$contact-form-bg-color--dark: linear-gradient(155deg, #27255f, #1b2447 85%);

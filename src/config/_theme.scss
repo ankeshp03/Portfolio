@@ -3,7 +3,9 @@
 $bg-color: 'bg-color';
 $font-color: 'font-color';
 $header-bg: 'header-bg';
+$header-shadow: 'header-shadow';
 $header-brand-color: 'header-brand-color';
+$theme-btn-shadow: 'theme-btn-shadow';
 $home-bg: 'home-bg';
 $home-cta-button-bg: 'home-cta-button-bg';
 $home-cta-button-font: 'home-cta-button-font';
@@ -11,11 +13,12 @@ $home-cta-button-hover-font: 'home-cta-button-hover-font';
 $home-illustration-color: 'home-illustration-color';
 $work-card-bg: 'work-card-bg';
 $work-card-shadow: 'work-card-shadow';
-$header-shadow: 'header-shadow';
-$theme-btn-shadow: 'theme-btn-shadow';
 $work-card-button-bg: 'work-card-button-bg';
 $work-card-button-font: 'work-card-button-font';
 $work-card-button-hover-font: 'work-card-button-hover-font';
+$footer-bg: 'footer-bg';
+$contact-form-font: 'contact-form-font';
+$contact-form-bg-color: 'contact-form-bg-color';
 
 $themes: (
         default: (
@@ -23,6 +26,8 @@ $themes: (
             font-color: $font-color--light,
             header-bg: $header-bg--light,
             header-brand-color: $header-brand-color--light,
+            header-shadow: $header-shadow--light,
+            theme-btn-shadow: $theme-btn-shadow--light,
             home-bg: $home-bg--light,
             home-cta-button-bg: $home-cta-button-bg--light,
             home-cta-button-font: $home-cta-button-font--light,
@@ -33,14 +38,17 @@ $themes: (
             work-card-button-bg: $work-card-button-bg--light,
             work-card-button-font: $work-card-button-font--light,
             work-card-button-hover-font: $work-card-button-hover-font--light,
-            header-shadow: $header-shadow--light,
-            theme-btn-shadow: $theme-btn-shadow--light
-        ),
-        dark: (
+            footer-bg: $footer-bg--light,
+            contact-form-font: $contact-form-font--light,
+            contact-form-bg-color: $contact-form-bg-color--light
+            ),
+            dark: (
             bg-color: $bg-color--dark,
             font-color: $font-color--dark,
             header-bg: $header-bg--dark,
             header-brand-color: $header-brand-color--dark,
+            header-shadow: $header-shadow--dark,
+            theme-btn-shadow: $theme-btn-shadow--dark,
             home-bg: $home-bg--dark,
             home-cta-button-bg: $home-cta-button-bg--dark,
             home-cta-button-font: $home-cta-button-font--dark,
@@ -51,8 +59,9 @@ $themes: (
             work-card-button-bg: $work-card-button-bg--dark,
             work-card-button-font: $work-card-button-font--dark,
             work-card-button-hover-font: $work-card-button-hover-font--dark,
-            header-shadow: $header-shadow--dark,
-            theme-btn-shadow: $theme-btn-shadow--dark
+            footer-bg: $footer-bg--dark,
+            contact-form-font: $contact-form-font--dark,
+            contact-form-bg-color: $contact-form-bg-color--dark
         )
 );
 
