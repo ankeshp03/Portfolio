@@ -19,6 +19,12 @@
         .nav-link {
             color: inherit;
             margin-right: 30px;
+            &:hover {
+                @include themed() {
+                    color: apply_theme($header-nav-hover-font);
+                }
+                transition: color $theme-transition-duration;
+            }
         }
     }
 }

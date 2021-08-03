@@ -7,7 +7,7 @@ $font-color--light: #333;
 
 //Header
 $header-bg--light: #FCF7F5;
-$header-brand-color--light: #333;
+$header-nav-hover-font--light: rgba(0,0,0,.7);
 $header-shadow--light: 0 1px 30px 0 rgba(145, 145, 145, 0.2);
 
 // Theme toggle button
@@ -46,7 +46,7 @@ $font-color--dark: #a1a8be; //#FCF7F5;
 
 //Header
 $header-bg--dark: #1f2a42; //#011627; //#1d1e42;
-$header-brand-color--dark: #FCF7F5;
+$header-nav-hover-font--dark: #ccd3e9;
 $header-shadow--dark: 0 1px 30px 0 rgba(20, 18, 43, 0.9);
 
 // Theme toggle button

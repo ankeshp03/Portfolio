@@ -4,7 +4,7 @@ $bg-color: 'bg-color';
 $font-color: 'font-color';
 $header-bg: 'header-bg';
 $header-shadow: 'header-shadow';
-$header-brand-color: 'header-brand-color';
+$header-nav-hover-font: 'header-nav-hover-font';
 $theme-btn-shadow: 'theme-btn-shadow';
 $home-bg: 'home-bg';
 $home-cta-button-bg: 'home-cta-button-bg';
@@ -25,7 +25,7 @@ $themes: (
             bg-color: $bg-color--light,
             font-color: $font-color--light,
             header-bg: $header-bg--light,
-            header-brand-color: $header-brand-color--light,
+            header-nav-hover-font: $header-nav-hover-font--light,
             header-shadow: $header-shadow--light,
             theme-btn-shadow: $theme-btn-shadow--light,
             home-bg: $home-bg--light,
@@ -46,7 +46,7 @@ $themes: (
             bg-color: $bg-color--dark,
             font-color: $font-color--dark,
             header-bg: $header-bg--dark,
-            header-brand-color: $header-brand-color--dark,
+            header-nav-hover-font: $header-nav-hover-font--dark,
             header-shadow: $header-shadow--dark,
             theme-btn-shadow: $theme-btn-shadow--dark,
             home-bg: $home-bg--dark,
