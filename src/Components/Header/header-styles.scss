@@ -19,7 +19,7 @@
         .nav-link {
             color: inherit;
             margin-right: 30px;
-            &:hover {
+            &:hover, &.active {
                 @include themed() {
                     color: apply_theme($header-nav-hover-font);
                 }
